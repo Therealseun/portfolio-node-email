@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-node-email",
+  "version": "1.0.0",
+  "description": "A functional portfolio site with Node.js backend that emails contact form submissions via Gmail SMTP.",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "node server/server.js",
+    "start": "NODE_ENV=production node server/server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "node",
+    "express",
+    "nodemailer",
+    "gmail",
+    "smtp"
+  ],
+  "author": "Oluwasegun Daniel Osawore",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.0",
+    "helmet": "^7.1.0",
+    "nodemailer": "^6.9.14",
+    "validator": "^13.11.0",
+    "cors": "^2.8.5"
+  }
+}
